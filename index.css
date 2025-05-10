@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 0.8em;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card1{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card1:active{
+    transform: scale(0.9);
+}
+.card2{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card2:active{
+    transform: scale(0.9);
+}
+.card3{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card3:active{
+    transform: scale(0.9);
+}
+.card4{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card4:active{
+    transform: scale(0.9);
+}
+.card5{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card5:active{
+    transform: scale(0.9);
+}
+.card6{
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0.63em;
+    text-align: center;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+.card6:active:active{
+    transform: scale(0.9);
+}
+.Foot{
+    text-align: center;
+    height: 1.5rem;
+    padding: 1rem;
+    color: grey;
+}
+
+/* tablet */
+@media(min-width:768px){
+    .parent{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+
+    }
+}
+/* laptop */
+
+@media (min-width:1024px){
+    img{
+        width: 22rem;
+        height: 22rem;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+
+    }
+}
